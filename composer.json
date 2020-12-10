@@ -1,0 +1,20 @@
+{
+  "name": "vendor_name/form_template",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Aiste",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/classes",
+      "Core\\": "core/classes"
+    }
+  }
+}
